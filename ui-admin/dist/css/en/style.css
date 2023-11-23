@@ -1,0 +1,115 @@
+
+/*=======================
+	
+	Customize Styles
+
+=======================*/
+
+.skin-blue .content-header {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+}
+
+
+.content-header>h1 {
+    margin: 10px auto;
+}
+
+.table > tr > th, .table > tr > td {
+	text-align: center;
+}
+
+.box-body{
+	padding-top: 30px;
+}
+
+.table-bordered>thead>tr>th, 
+.table-bordered>tbody>tr>th, 
+.table-bordered>tfoot>tr>th, 
+.table-bordered>thead>tr>td, 
+.table-bordered>tbody>tr>td, 
+.table-bordered>tfoot>tr>td {
+    text-align: center;
+}
+
+.table-bordered>tbody>tr>th{
+	background-color: #3c8dbc;
+	color: #FFF;
+}
+
+.form-horizontal .control-label {
+	text-align: left;
+}
+
+.red_hint{
+	color:red; 
+	font-weight: normal ;
+	font-size: 12px
+}
+
+.form1 input[type="file"] {
+    display: inline-block;
+    padding: 12px 15px;
+    width: 100%;
+    border: 0;
+    border: 1px #DFDFDF solid;
+    background: #fff;
+}
+
+.form1 .form-group{
+	margin-bottom: 30px;
+}
+
+.gallery_tbl > tbody > tr > td{
+	vertical-align: middle;;
+}
+
+.gallery_tbl > tbody > tr > td > .btn-success,
+.gallery_tbl > tbody > tr > td > .btn-danger{
+	margin-top: 5px;
+}
+
+
+.content-wrapper, .right-side {
+    background-color: #d8e2ef;
+}
+
+
+/*Datatable */
+
+.table > caption + thead > tr:first-child > td, .table > caption + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > th, .table > thead:first-child > tr:first-child > td, .table > thead:first-child > tr:first-child > th {
+    border-top: 0;
+    background: #3C8DBC;
+    color: #fff;
+}
+
+/*PHP Pagination ( Not Datatabels) */
+
+/*ul.pagination {
+    text-align:center;
+    color:#829994;
+    float: right;
+}
+ul.pagination li {
+    display:inline;
+    padding:0 3px;
+}
+ul.pagination a {
+    color:#3C8DBC;
+    display:inline-block;
+    padding:5px 10px;
+    border:1px solid #cde0dc;
+    text-decoration:none;
+}
+ul.pagination a:hover, 
+ul.pagination a.current {
+    background:#3C8DBC;
+    color:#fff; 
+}
+
+ul.pagination li.page_info {
+    display:inline;
+    padding:0 3px;
+    float: right;
+    margin-top: 5px;
+}*/

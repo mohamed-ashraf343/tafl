@@ -1,0 +1,190 @@
+
+/*=======================
+	
+	Customize Styles
+
+=======================*/
+@import url('https://fonts.googleapis.com/css?family=Tajawal:400,500,700,800,900');
+
+
+@font-face {
+    font-family: 'Gerta_Regular';
+    src: url('../fonts/GretaTextArabicRegular.ttf');
+    src: url('../fonts/GretaTextArabicRegular.ttf');
+    src: url('../fonts/GretaTextArabicRegular.ttf?#iefix') format('embedded-opentype'), url('../fonts/GretaTextArabicRegular.ttf') format('woff'), url('../fonts/GretaTextArabicRegular') format("opentype");
+    }
+    @font-face {
+    font-family: 'Gerta_Bold';
+    src: url('../fonts/GretaTextArabicBold.ttf');
+    src: url('../fonts/GretaTextArabicBold.ttf');
+    src: url('../fonts/GretaTextArabicBold.ttf?#iefix') format('embedded-opentype'), url('../fonts/GretaTextArabicBold.ttf') format('woff'), url('../fonts/GretaTextArabicBold.ttf') format("opentype");
+    }
+
+    @font-face {
+    font-family: 'Gerta_light';
+    src: url('../fonts/GretaTextArabicLight.ttf');
+    src: url('../fonts/GretaTextArabicLight.ttf');
+    src: url('../fonts/GretaTextArabicLight.ttf?#iefix') format('embedded-opentype'), url('../fonts/GretaTextArabicLight.ttf') format('woff'), url('../fonts/GretaTextArabicLight.ttf') format("opentype");
+    }
+
+    @font-face {
+    font-family: "Gerta_medium";
+    src: url("../fonts/GretaTextArabicMedium.ttf");
+    src: url("../fonts/GretaTextArabicMedium.ttf");
+    src: url("../fonts/GretaTextArabicMedium.ttf?#iefix") format("embedded-opentype"), url("../fonts/GretaTextArabicMedium.ttf") format("woff"), url("../fonts/GretaTextArabicMedium.ttf") format("opentype");
+    }
+
+
+
+body {
+   font-family: 'Gerta_Regular', sans-serif ;
+  font-size: 16px;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Gerta_Regular', sans-serif;
+}
+.btn-primary{
+    direction: rtl;
+}
+.skin-blue .content-header {
+    border-bottom: 1px solid #c2cad6;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.main-header .logo{ font-family: inherit; }
+
+.login-logo, .register-logo{
+    font-size: 26px;
+    font-weight: 500;
+}
+.login-page{
+    /*background: #11a4b3;*/
+}
+.content-header>h1 {
+    margin: 10px auto;
+}
+
+.table > tr > th, .table > tr > td {
+	text-align: center;
+}
+
+.box-body{
+	padding-top: 30px;
+}
+
+.table-bordered>thead>tr>th, 
+.table-bordered>tbody>tr>th, 
+.table-bordered>tfoot>tr>th, 
+.table-bordered>thead>tr>td, 
+.table-bordered>tbody>tr>td, 
+.table-bordered>tfoot>tr>td {
+    text-align: center;
+}
+
+.table-bordered>tbody>tr>th{
+	background-color: #3c8dbc;
+	color: #FFF;
+}
+
+.form-horizontal .control-label {
+	text-align: right;
+    direction: rtl
+}
+
+.red_hint{
+	color:red; 
+	font-weight: normal ;
+	font-size: 12px
+}
+
+.form1 input[type="file"] {
+    display: inline-block;
+    padding: 12px 15px;
+    width: 100%;
+    border: 0;
+    border: 1px #DFDFDF solid;
+    background: #fff;
+}
+
+.form1 .form-group{
+	margin-bottom: 15px;
+}
+
+.gallery_tbl > tbody > tr > td{
+	vertical-align: middle;;
+}
+
+.gallery_tbl > tbody > tr > td > .btn-success,
+.gallery_tbl > tbody > tr > td > .btn-danger{
+	margin-top: 5px;
+}
+
+
+.content-wrapper, .right-side {
+    background-color: #d8e2ef;
+}
+
+
+/*Datatable */
+
+.table > caption + thead > tr:first-child > td, .table > caption + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > th, .table > thead:first-child > tr:first-child > td, .table > thead:first-child > tr:first-child > th {
+    border-top: 0;
+    background: #3C8DBC;
+    color: #fff;
+}
+
+.sidebar-menu>li{
+    direction: rtl;
+}
+
+.sidebar-menu li>a{
+    /*font-family: 'pfdRegular','bein-normal';*/
+    font-size: 16px;
+    font-weight: 500
+}
+.user-panel>.info>p {
+    margin-top: 13px;
+}
+
+table.direction .btn{
+    margin: 0 5px;
+}
+
+.sidebar-menu .treeview-menu>li>a{
+    font-size: 15px;
+}
+.navbar-nav>.user-menu>.dropdown-menu>li.user-header>p{
+    text-align: center;
+}
+
+
+
+.alert .icon{
+    float: right;
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+
+.mailbox-read-info h4{
+    padding-bottom: 8px;
+    font-size: 16px;
+}
+
+.mailbox-read-info h4 span{
+    width: 170px;
+    display: inline-block;
+}
+.mailbox-read-info h4 span i {
+    min-width: 25px;
+    text-align: center;
+}
+
+@media (min-width: 768px){
+    .sidebar-mini.sidebar-collapse .sidebar-menu>li:hover>a>span:not(.pull-right), 
+    .sidebar-mini.sidebar-collapse .sidebar-menu>li:hover>.treeview-menu
+    {
+        width: 240px;
+    }
+}
